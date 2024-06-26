@@ -8,15 +8,15 @@ const server = http.createServer((request, response) => {
         secure: true,
         port: 465,
         auth: {
-            user: "lukkaroshini@gmail.com",
-            pass: "wtpz pzav rzbg jcqf" // Use your actual password or app password here
+            user: "your@gmail.com",
+            pass: "---" // Use your actual password or app password here
         }
     });
 
     // Email options
     const mailOptions = {
-        from: "lukkaroshini@gmail.com",
-        to: "lukkaroshini@gmail.com", // Replace with the recipient's email
+        from: "your@gmail.com",
+        to: "your@gmail.com", // Replace with the recipient's email
         subject: "Node.js Mail Testing!",
         text: "Hello, this is a text email!"
     };
