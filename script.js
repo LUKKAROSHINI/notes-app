@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to send email for a note
     const sendNoteEmail = (noteContent) => {
-        const recipientEmail = 'lukkaroshini@outlook.com'; // Replace with recipient email
+        const recipientEmail = 'yourmail@outlook.com'; // Replace with recipient email
         sendEmail(recipientEmail, noteContent);
     };
 
